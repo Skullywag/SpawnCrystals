@@ -1,5 +1,7 @@
 package com.skullywag.spawncrystals;
 
+import com.skullywag.spawncrystals.init.ModBlocks;
+import com.skullywag.spawncrystals.init.ModItems;
 import com.skullywag.spawncrystals.proxy.IProxy;
 import com.skullywag.spawncrystals.reference.Reference;
 
@@ -21,6 +23,9 @@ public class spawnCrystals
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
+        ModItems.init();
+
+        ModBlocks.init();
 		
 	}
 	
