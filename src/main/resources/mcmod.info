@@ -1,0 +1,21 @@
+[
+{
+  "modid": "SpawnCrystals",
+  "name": "Spawn Crystals",
+  "description": "Craft and upgrade mob spawners, may involve killing mobs...",
+  "version": "${mod_version}",
+  "mcversion": "${minecraft_version}",
+  "url": "http://www.minecraftforum.net/topic/2324909-",
+  "updateUrl": "",
+  "authorList": [
+    "Skullywag",
+  ],
+  "credits": "Skullywag",
+  "logoFile": "assets/SpawnCrystals/textures/logo/logo.png",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
